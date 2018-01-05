@@ -1,0 +1,8 @@
+artifacts:
+- imageName: gcr.io/dlorenc-vmtest2/ccweb
+  dockerfilePath: ./web/Dockerfile
+  dockerContextPath: ./web
+
+manifests:
+- ./web/k8config/deployment.yaml
+- ./web/k8config/service.yaml

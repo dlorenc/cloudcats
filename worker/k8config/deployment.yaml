@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cloudcats-worker
-        image: gcr.io/cloudcats-next/ccworker:latest
+        image: gcr.io/dlorenc-vmtest2/ccworker:latest
         imagePullPolicy: Always        
         ports:
         - name: http-server
